@@ -158,7 +158,7 @@ void sendNotification(float temp) {
 
     http.end();
   } else {
-    Serial.println("Không thể kết nối Wi-Fi để gửi thông báo.");
+    Serial.println("Không thể kết nối Wi-Fi, gửi thông báo.");
   }
 }
 
